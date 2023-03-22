@@ -6,7 +6,7 @@ CREATE TABLE `site_user`(
     `password` VARCHAR(255) NOT NULL,
     `first_name` VARCHAR(255) NOT NULL,
     `last_name` VARCHAR(255) NOT NULL,
-    `company_name` VARCHAR(255) NOT NULL
+    `company_name` VARCHAR(255)
 );
 CREATE TABLE `product`(
     `id` BIGINT PRIMARY KEY NOT NULL AUTO_INCREMENT,
