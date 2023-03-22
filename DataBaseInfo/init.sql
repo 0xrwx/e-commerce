@@ -2,7 +2,7 @@ CREATE TABLE `site_user`(
     `id` BIGINT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     `name` VARCHAR(255) NOT NULL,
     `email_address` VARCHAR(255) NOT NULL,
-    `phone_number` INT NOT NULL,
+    `phone_number` VARCHAR(15) NOT NULL,
     `password` VARCHAR(255) NOT NULL,
     `first_name` VARCHAR(255) NOT NULL,
     `last_name` VARCHAR(255) NOT NULL,
